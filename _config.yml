@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jenny Zhang Zhuoting"
+title                    : "Jenny Zhuoting Zhang"
 title_separator          : "-"
-name                     : &name "Jenny Zhang Zhuoting"
+name                     : &name "Jenny Zhuoting Zhang"
 description              : &description "Artificial Intelligence and Robotics"
 url                      : https://jennyzzt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "jzhangzhuoting"
+  twitter          : "jennyzhangzt"
   vine             :
   weibo            :
   xing             :
@@ -122,6 +122,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - project_omni
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

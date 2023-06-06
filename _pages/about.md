@@ -8,54 +8,52 @@ redirect_from:
   - /about.html
 ---
 
-Hello World! I am a PhD student at University of British Columbia working on Artificial Intelligence and Robotics. I am currently based in Canada, Vancouver. My work focuses on robot generalisation and adaptation in both physical and cognitive aspects.
+Hello World! I am a PhD student at University of British Columbia working on Artificial Intelligence and Robotics. I am currently based in Canada, Vancouver. My work focuses on robot generalisation, open-ended learning, and AI-Generating Algorithms (AI-GAs).
 
-I am proud to present some of my [research work](https://jennyzzt.github.io/publications/) and ...
+## [Selected Publications](https://jennyzzt.github.io/publications/)
 
-<p float="left">
-   <img src="./images/about0.gif" width="30%" />
-   <img src="./images/about1.png" width="30%" />
-   <img src="./images/about2.gif" width="22%" />
+### Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation
+<p align="center">
+   <img src="./images/project_gta.png" width="100%" />
 </p>
+[Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask)  
 
-<br/><br/>
+[comment]: # ... some cool stuff I did
+[comment]: # -----
 
-... some cool stuff I did
------
+[comment]: # ### Automatic Animation Generator for Data Structures (Sept 2020 - Dec 2020)
+[comment]: # * *Honorable mentioned Software Engineering Group Project*
+[comment]: # <p float="left">
+[comment]: #    <img src="./images/proj_algomanim0.gif" width="40%" />
+[comment]: #    <img src="./images/proj_algomanim1.gif" width="40%" />
+[comment]: # </p>
+[comment]: # * Above examples are beautifully generated animations only by the minimal code shown
+[comment]: # * Automatically generates animation for data structures and algorithms
+[comment]: # * Agile development with iterative feedback from users
+[comment]: # * Key Frameworks: Python, PyQT, Language specific designs, Manim library
+[comment]: # * [Code](https://github.com/jennyzzt/AlgoManim)
 
-### Automatic Animation Generator for Data Structures (Sept 2020 - Dec 2020)
-* *Honorable mentioned Software Engineering Group Project*
-<p float="left">
-   <img src="./images/proj_algomanim0.gif" width="40%" />
-   <img src="./images/proj_algomanim1.gif" width="40%" />
-</p>
-* Above examples are beautifully generated animations only by the minimal code shown
-* Automatically generates animation for data structures and algorithms
-* Agile development with iterative feedback from users
-* Key Frameworks: Python, PyQT, Language specific designs, Manim library
-* [Code](https://github.com/jennyzzt/AlgoManim)
+[comment]: # ### DoC Outreach Tracker (June 2020 - July 2020)
+[comment]: # * *Top 5 Design-For-Real-People project across cohort*
+[comment]: # <p float="left">
+[comment]: #   <img src="./images/proj_web0.png" width="30%" />
+[comment]: #   <img src="./images/proj_web1.png" width="30%" /> 
+[comment]: #   <img src="./images/proj_web2.png" width="30%" /> 
+[comment]: # </p>
+[comment]: # * A centralised platform for outreach activities in the Department of Computing
+[comment]: # * Agile development with iterative feedback from users
+[comment]: # * Key Frameworks: Flask, SQL, LDAP, JavaScript
+[comment]: # * [Video](https://www.youtube.com/watch?v=yeiVnWg5O_0)
 
-### DoC Outreach Tracker (June 2020 - July 2020)
-* *Top 5 Design-For-Real-People project across cohort*
-<p float="left">
-  <img src="./images/proj_web0.png" width="30%" />
-  <img src="./images/proj_web1.png" width="30%" /> 
-  <img src="./images/proj_web2.png" width="30%" /> 
-</p>
-* A centralised platform for outreach activities in the Department of Computing
-* Agile development with iterative feedback from users
-* Key Frameworks: Flask, SQL, LDAP, JavaScript
-* [Video](https://www.youtube.com/watch?v=yeiVnWg5O_0)
-
-### Multi-Functional Rover (May 2019 - June 2019)
-* *Top 5 C language project across cohort*
-<p float="left">
-  <img src="./images/proj_rover0.png" width="30%" />
-  <img src="./images/proj_rover1.png" width="30%" /> 
-  <img src="./images/proj_rover2.gif" width="30%" /> 
-</p>
-* A drawing rover that can be controlled via multiple mediums
-* Raspberry Pi with Wifi and Bluetooth connections
-* Front end web app using NodeJS to schedule rover routine
-* Intuitive joystick control via Bluetooth connection
-* L-system algorithm implementation in C
+[comment]: # ### Multi-Functional Rover (May 2019 - June 2019)
+[comment]: # * *Top 5 C language project across cohort*
+[comment]: # <p float="left">
+[comment]: #   <img src="./images/proj_rover0.png" width="30%" />
+[comment]: #   <img src="./images/proj_rover1.png" width="30%" /> 
+[comment]: #   <img src="./images/proj_rover2.gif" width="30%" /> 
+[comment]: # </p>
+[comment]: # * A drawing rover that can be controlled via multiple mediums
+[comment]: # * Raspberry Pi with Wifi and Bluetooth connections
+[comment]: # * Front end web app using NodeJS to schedule rover routine
+[comment]: # * Intuitive joystick control via Bluetooth connection
+[comment]: # * L-system algorithm implementation in C

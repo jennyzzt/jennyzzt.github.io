@@ -1,0 +1,234 @@
+---
+layout: compress
+title: "OMNI"
+permalink: /omni/
+author_profile: false
+---
+
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>OMNI</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+        <!--FACEBOOK-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jennyzzt.github.io/omni"/>
+    <meta property="og:title" content="OMNI" />
+    <meta property="og:description" content="Project page for OMNI: Open-endedness via Modeling human Notions of Interestingness." />
+
+    
+
+
+<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                <b>OMNI</b>: <br/>Open-endedness via Modeling human Notions of Interestingness</br>
+                <!-- <small>
+                    Conference 2023
+                </small> -->
+            </h2>
+        </div>
+        
+        <style>
+            .author-info {
+                text-align: center;
+                margin-right: 10px; /* Adjust this to move the block to the right */
+            }
+            
+            .author {
+                display: flex;
+                justify-content: center;
+                gap: 50px; /* Change this value to adjust space between authors */
+            }
+            
+            .author li, .affiliation {
+                list-style-type: none; /* This will remove the bullet points */
+            }
+            
+            .affiliation {
+                margin-top: 5px; /* Smaller values to reduce space */
+                margin-bottom: 5px;
+            }
+            
+            .author-name {
+                font-size: 20px; /* Adjust this value to increase or decrease the author name size */
+            }
+            </style>
+            
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="author-info">
+                        <div class="author">
+                            <li>
+                                <a href="https://jennyzzt.github.io/" class="author-name">Jenny Zhang</a><sup>1,2</sup><br/>
+                            </li>
+			    <li>
+                                <a href="http://joellehman.com/" class="author-name">Joel Lehman</a><sup>3</sup><br/>
+                            </li>
+			    <li>
+                                <a href="https://scholar.google.se/citations?user=6Q6oO1MAAAAJ&hl=en" class="author-name">Kenneth Stanley</a><sup>4</sup><br/>
+                            </li>
+                            <li>
+                                <a href="http://jeffclune.com/" class="author-name">Jeff Clune</a><sup>1,2,5</sup><br/>
+                            </li>
+                        </div>
+                        <li class="affiliation">
+                            <sup>1</sup>Department of Computer Science, University of British Columbia  
+                        </li>
+                        <li class="affiliation">
+                            <sup>2</sup>Vector Institute &emsp; <sup>3</sup>Stability AI &emsp; <sup>4</sup>Maven &emsp; <sup>5</sup>Canada CIFAR AI Chair
+                        </li>
+                    </ul>
+                </div>
+            </div>
+              
+
+
+
+              <style>
+                .link-content {
+                  text-align: center;
+                }
+                
+                .list-inline li {
+                  margin-right: 50px;  /* Adjust this value to increase/decrease the gap between items */
+                  margin-left: 80px;
+                }
+                
+                </style>
+                
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <ul class="list-inline">
+                      <li>
+                        <a href="https://arxiv.org/abs/2306.01711">
+                          <div class="link-content">
+                            <img src="/project_omni/img/omni_paper_image.png" height="60px">
+                            <h4><strong>Paper</strong></h4>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/jennyzzt/omni">
+                          <div class="link-content">
+                            <img src="/project_omni/img/github.png" height="60px">
+                            <h4><strong>Code</strong></h4>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <video width="100%" controls>
+                    <source src="/project_omni/data/omni.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3>
+                    Abstract
+                </h3>
+                <p class="text-justify">
+		  Open-ended algorithms aim to learn new, interesting behaviors forever. That requires a vast environment search space, but there are thus infinitely many possible tasks. Even after filtering for tasks the current agent can learn (i.e., learning progress), countless learnable yet uninteresting tasks remain (e.g., minor variations of previously learned tasks). An Achilles Heel of open-endedness research is the inability to quantify (and thus prioritize) tasks that are not just learnable, but also <em>interesting</em> (e.g., worthwhile and novel). We propose solving this problem by <em>Open-endedness via Models of human Notions of Interestingness</em> (OMNI). The insight is that we can utilize large (language) models (LMs) as a model of interestingness (MoI), because they <em>already</em> internalize human concepts of interestingness from training on vast amounts of human-generated data, where humans naturally write about what they find interesting or boring. We show that LM-based MoIs improve open-ended learning by focusing on tasks that are both learnable <em>and interesting</em>, outperforming baselines based on uniform task sampling or learning progress alone. This approach has the potential to dramatically advance the ability to intelligently select which tasks to focus on next (i.e., auto-curricula), and could be seen as AI selecting its own next task to learn, facilitating self-improving AI and AI-Generating Algorithms.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Method
+                </h3>
+		<p>
+		  Provided that the real, significant challenges of <a href="https://arxiv.org/abs/2006.07495">AI safety and existential risk</a> can be solved, there are tremendous gains to be had by creating more powerful AI or even AGI. Our approach combines a learning progress auto-curriculum and a model of interestingness, to train a Reinforcement Learning (RL) agent in a task-conditioned manner.
+		</p>
+		<p><b>Learning Progress Curriculum</b></p>
+		<p>
+		  The task pool in open-ended environments can be very large and diverse, making it challenging for an agent to learn effectively through uniform sampling. Most randomly sampled tasks are likely to be too easy or too difficult for the agent. To automatically identify tasks at the frontier of the agent's capabilities, we extend the learning-progress-based curriculum (LP) from <a href="https://arxiv.org/abs/2106.14876">Kanitscheider et al</a>. The high-level idea is for the curriculum to predominantly sample tasks with high learning progress, defined as an agent's recent change in task success probability.
+		</p>
+		<p><b>Modeling what Humans Find Interesting</b></p>
+		<p>
+		  This paper capitalizes on the capabilities of autoregressive LMs, specifically GPT-3, to emulate human notions of interestingness. LMs are pretrained on vast and diverse text corpora, enabling them to amass a significant amount of world knowledge. GPT-3 is prompted in a few-shot manner by providing it with a few examples of choosing which tasks are interesting. It takes into account the agent's existing proficiency on a given set of tasks and suggests what humans would typically find interesting. The prompt including one example is:
+		</p>
+		<image src="/project_omni/img/prompt.png" class="img-responsive" alt="overview"><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Experimental results
+                </h3>
+		<p>
+		  OMNI significantly outperforms baselines based on uniform sampling or learning progress alone. Uniform sampling samples all tasks with equal probabilities. Uniform sampling is the most naive and samples tasks that are too easy or too difficult most of the time. LP is distracted by the many boring tasks. OMNI: LP + MoI focuses on the subset of tasks with high learning progress that are also interesting.
+		</p>
+		<image src="/project_omni/img/res.png" class="img-responsive" alt="overview"><br>
+		<image src="/project_omni/img/plotsr.png" class="img-responsive" alt="overview"><br>
+		<image src="/project_omni/img/plotsar.png" class="img-responsive" alt="overview"><br>
+            </div>
+        </div>
+        
+            
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <pre id="bibtex" readonly>
+@article{zhang2023omni,
+title={OMNI: Open-endedness via Models of human Notions of Interestingness},
+author={Jenny Zhang and Joel Lehman and Kenneth Stanley and Jeff Clune},
+year={2023},
+journal={arXiv preprint arXiv:2306.01711},
+}</pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+		  This work was supported by the Vector Institute, a grant from Schmidt Futures, an NSERC Discovery Grant, and a generous donation from Rafael Cosman. We also thank Cédric Colas and members in our lab at the University of British Columbia, namely Aaron Dharna, Ben Norman, and Shengran Hu, for insightful discussions and feedback.
+                  <br>
+                  <br>
+                The website template was borrowed from <a href="https://jonbarron.info/">Jon Barron</a>.
+                </p>
+		<br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

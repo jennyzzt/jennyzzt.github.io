@@ -1,11 +1,19 @@
 ---
 layout: archive
-title: "Awards"
+title: "Grants and Awards"
 permalink: /awards/
 author_profile: true
 ---
 
 {% include base_path %}
+
+### ICRA'23 Student Travel Grant
+Deepmind, 2023  
+*Awarded $500 for travel to the ICRA 2023 conference*  
+
+### nwHacks winner
+Western Canada's largest hackathon, 2023  
+*Created a web3 app and won the Livepeer (title sponsor) category*  
 
 ### President's Academic Excellence Initiative PhD Award
 University of British Columbia, 2022  
