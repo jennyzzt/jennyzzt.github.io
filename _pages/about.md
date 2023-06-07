@@ -10,7 +10,13 @@ redirect_from:
 
 Hello World! I am a PhD student at University of British Columbia working on Artificial Intelligence and Robotics. I am currently based in Canada, Vancouver. My work focuses on robot generalisation, open-ended learning, and AI-Generating Algorithms (AI-GAs).
 
-## [Selected Publications](https://jennyzzt.github.io/publications/)
+## Selected Publications
+
+### OMNI: Open-endedness via Models of human Notions of Interestingness
+<p align="center">
+   <img src="./images/omni.gif" width="100%" />
+</p>
+[Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
 
 ### Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation
 <p align="center">
