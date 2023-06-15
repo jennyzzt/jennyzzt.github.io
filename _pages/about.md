@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello World! I am a PhD student at University of British Columbia working on Artificial Intelligence and Robotics. I am currently based in Canada, Vancouver. My work focuses on robot generalisation, open-ended learning, and AI-Generating Algorithms (AI-GAs).
+Hello Humans! I am a PhD student at University of British Columbia working on Artificial Intelligence and Robotics. I am currently based in Canada, Vancouver. My work focuses on robot generalisation, [open-ended learning](https://github.com/jennyzzt/awesome-open-ended), and [AI-Generating Algorithms (AI-GAs)](https://arxiv.org/abs/1905.10985).
 
 ## Selected Publications
 
 ### OMNI: Open-endedness via Models of human Notions of Interestingness
 <p align="center">
-   <img src="./images/omni.gif" width="100%" />
+   <img src="./images/project_omni.gif" width="100%" />
 </p>
 [Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
 
@@ -22,7 +22,7 @@ Hello World! I am a PhD student at University of British Columbia working on Art
 <p align="center">
    <img src="./images/project_gta.png" width="100%" />
 </p>
-[Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask)  
+[Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask) | [Website](https://jennyzzt.github.io/gta/)  
 
 [comment]: # ... some cool stuff I did
 [comment]: # -----

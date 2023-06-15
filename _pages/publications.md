@@ -29,7 +29,7 @@ Herbie Bradley, Andrew Dai, **Jenny Zhang**, Jeff Clune, Kenneth Stanley, Joel L
 **Jenny Zhang**, Samson Yu, Jiafei Duan, Cheston Tan  
 *IEEE International Conference on Ubiquitous Robots (UR) 2023*  
 *Best paper nomination*  
-[Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask)  
+[Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask) | [Website](https://jennyzzt.github.io/gta/)  
 
 ## [Perceptive Locomotion with Controllable Pace and Natural Gait Transitions Over Uneven Terrains](https://arxiv.org/abs/2301.10894)
 Daniel C.H. Tan\*, **Jenny Zhang\***, Michael (Meng Yee) Chuah, Zhibin Li  

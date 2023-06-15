@@ -1,0 +1,219 @@
+---
+layout: compress
+title: "GTA"
+permalink: /gta/
+author_profile: false
+---
+
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>GTA</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+        <!--FACEBOOK-->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jennyzzt.github.io/gta"/>
+    <meta property="og:title" content="GTA" />
+    <meta property="og:description" content="Project page for Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation." />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+    
+    <script src="js/app.js"></script>
+</head>
+
+<body style="background-image: url('/project_gta/img/terrain.png'); background-size: cover; background-repeat: no-repeat;">
+  <div class="container" id="main" style="background-color: rgba(255, 255, 255, 0.9);">
+    <div class="row">
+      <h2 class="col-md-12 text-center">
+        <b>Good Time to Ask</b>: <br/>A Learning Framework for Asking for Help in Embodied Visual Navigation</br>
+        <small>
+          Ubiquitous Robotics 2023
+        </small>
+      </h2>
+    </div>
+    
+    <style>
+      .author-info {
+          text-align: center;
+          margin-right: 10px; /* Adjust this to move the block to the right */
+      }
+      
+      .author {
+          display: flex;
+          justify-content: center;
+          gap: 50px; /* Change this value to adjust space between authors */
+      }
+      
+      .author li, .affiliation {
+          list-style-type: none; /* This will remove the bullet points */
+      }
+      
+      .affiliation {
+          margin-top: 5px; /* Smaller values to reduce space */
+          margin-bottom: 5px;
+      }
+      
+      .author-name {
+          font-size: 20px; /* Adjust this value to increase or decrease the author name size */
+      }
+    </style>
+    
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul class="author-info">
+          <div class="author">
+            <li>
+              <a href="https://jennyzzt.github.io/" class="author-name">Jenny Zhang</a><sup>1</sup><br/>
+            </li>
+	    <li>
+              <a href="https://samsonyubaijian.github.io/" class="author-name">Samson Yu</a><sup>2</sup><br/>
+            </li>
+	    <li>
+              <a href="https://duanjiafei.com/" class="author-name">Jiafei Duan</a><sup>3</sup><br/>
+            </li>
+	    <li>
+              <a href="https://scholar.google.com.sg/citations?user=Up0UYEYAAAAJ&hl=en" class="author-name">Cheston Tan</a><sup>4</sup><br/>
+            </li>
+          </div>
+          <li class="affiliation">
+            <sup>1</sup>University of British Columbia &emsp; <sup>2</sup>National University of Singapore
+          </li>
+	  <li class="affiliation">
+            <sup>3</sup>University of Washington &emsp; <sup>4</sup>Centre for Frontier AI Research, A*STAR
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <style>
+      .link-content {
+          text-align: center;
+      }
+      
+      .list-inline li {
+          margin-right: 50px;  /* Adjust this value to increase/decrease the gap between items */
+          margin-left: 80px;
+      }                
+    </style>
+    
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <ul class="list-inline">
+          <li>
+            <a href="https://arxiv.org/abs/2206.10606">
+              <div class="link-content">
+                <img src="/project_gta/img/gta_paper_image.png" height="60px">
+                <h4><strong>Paper</strong></h4>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/jennyzzt/good_time_to_ask">
+              <div class="link-content">
+                <img src="/project_gta/img/github.png" height="60px">
+                <h4><strong>Code</strong></h4>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <image src="/project_gta/img/gta.png" class="img-responsive" alt="overview">
+          <h3>
+            Abstract
+          </h3>
+          <p class="text-justify">
+	    In reality, it is often more efficient to ask for help than to search the entire space to find an object with an unknown location. We present a learning framework that enables an agent to actively ask for help in such embodied visual navigation tasks, where the feedback informs the agent of where the goal is in its view. To emulate the real-world scenario that a teacher may not always be present, we propose a training curriculum where feedback is not always available. We formulate an uncertainty measure of where the goal is and use empirical results to show that through this approach, the agent learns to ask for help effectively while remaining robust when feedback is not available.
+          </p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>
+          Method
+        </h3>
+	<p class="text-justify">
+	  We propose a learning framework for asking for help in embodied visual navigation, Good Time to Ask (GTA). We tackle the <a href="https://arxiv.org/abs/2008.12760">ObjectNav</a> task. To complete the task, the agent must navigate to the target object instance within a pre-determined stopping distance. The target object is chosen randomly and the placement of objects is randomized every episode. In addition to the usual navigation actions, such as move forward, turning, and looking up or down, the agent is equipped with the action <i>ask</i>. The agent receives RGB-D observations, text embedding of the target object, and an additional <b>object-in-view</b> observation. Object-in-view observation is only provided upon each <i>ask</i> action, containing the ground truth semantic segmentation observation of the target object's location in the agent's view. Pixels corresponding to the target object's location have a value of 1, and 0 otherwise.
+	</p>
+	<image src="/project_gta/img/architecture.png" class="center img-responsive" alt="overview" width="60%"><br>
+	  <p>
+	    <b>Training Curriculum with Semi-Present Teacher.</b> While the agent should learn to make use of external feedback when available, the teacher may not always be present to provide assistance in a real-world setting. When help is unavailable, the desired behavior for the agent in this task would be to navigate the scene autonomously to find the target object, even if it takes more time. Hence, we introduce a semi-present teacher training curriculum, where an η% semi-present teacher is present in only η% of the training episodes.
+	  </p>
+	  <p>
+	    <b>Quantifying Uncertainty.</b> We propose a novel metric to quantify the agent’s uncertainty of where the target object is. The high-level idea is that, for each possible 3D position of where the target object can be, we estimate the likelihood of the target object being at that position. As the agent explores the environment and gains more information, the likelihood of the target object being at explored areas decreases, causing the estimated uncertainty of the goal to decrease too. By this uncertainty metric, we quantify instances where it is not the most informative time to ask:
+	    <ul>
+	      <li>Consecutive asks: no new information gained.</li>
+	      <li>Vapid asks: when the agent should already have a good idea of where the goal is (i.e., the uncertainty estimate is < 10% of its starting uncertainty).</li>
+	      <li>Statistically insignificant asks: little information gain (i.e., the change in uncertainty estimate by taking an <i>ask</i> action is less than a threshold γ = 2.0)</li>
+	    </ul>
+	  </p>
+	  <image src="/project_gta/img/uncertainty.png" class="img-responsive" alt="overview">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>
+          Experimental results
+        </h3>
+	<p class="text-justify">
+	  Feedback increases the agent's performance significantly. The agent trained with 100% present teacher fails in 95% of all test episodes when the teacher is absent, significantly worse than the baseline. Agents trained with semi-present teacher achieves comparable performance to the baseline when the teacher is absent, and is still able to utilize feedback when available to achieve much higher performance.
+	</p>
+	<image src="/project_gta/img/res1.png" class="img-responsive" alt="overview"><br>
+	<p>
+	  The agent train with an always present teacher has the lowest percentage of consecutive <i>ask</i> actions, vapid <i>ask</i> actions, and statistically insignificant <i>ask</i> actions, followed by Semi-75 and lastly Semi-25. This suggests that while the agent trained with an always present teacher uses a higher percentage of <i>ask</i> actions, it has learned to utilize them in a statistically informative manner. While the percentages of vapid asks and statistically insignificant asks seem high, this is partly attributed to the definition of uncertainty metric. It assumes a perfect memory where uncertainty only decreases with more observations, which may not be the case for an RL agent.
+	</p>
+	<image src="/project_gta/img/res2.png" class="img-responsive" alt="overview">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h3>
+          Citation
+        </h3>
+        <div class="form-group col-md-10 col-md-offset-1">
+          <pre id="bibtex" readonly>
+@article{zhang2022good,
+title={Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation},
+author={Zhang, Jenny and Yu, Samson and Duan, Jiafei and Tan, Cheston},
+journal={arXiv preprint arXiv:2206.10606},
+year={2022}
+}</pre>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <p class="text-justify">
+          The website template was borrowed from <a href="https://jonbarron.info/">Jon Barron</a>.
+        </p>
+	<br>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
