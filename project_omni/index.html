@@ -141,7 +141,7 @@ author_profile: false
         
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <video width="100%" controls>
+                <video width="100%" controls autoplay muted>
                     <source src="/project_omni/data/omni.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -183,12 +183,22 @@ author_profile: false
 		  OMNI significantly outperforms baselines based on uniform sampling or learning progress alone. Uniform sampling samples all tasks with equal probabilities. Uniform sampling is the most naive and samples tasks that are too easy or too difficult most of the time. LP is distracted by the many boring tasks. OMNI: LP + MoI focuses on the subset of tasks with high learning progress that are also interesting.
 		</p>
 		<image src="/project_omni/img/res.png" class="img-responsive" alt="overview"><br>
-		<image src="/project_omni/img/plotsr.png" class="img-responsive" alt="overview"><br>
-		<image src="/project_omni/img/plotsar.png" class="img-responsive" alt="overview"><br>
+		<a href="/project_omni/img/success_rates.pdf" target="_blank"><image src="/project_omni/img/plotsr_v2.png" class="img-responsive" alt="overview"></a><br>
+		<a href="/project_omni/img/sampled_rates.pdf" target="_blank"><image src="/project_omni/img/plotsar_v2.png" class="img-responsive" alt="overview"></a><br>
             </div>
         </div>
-        
-            
+
+	<div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Conclusion
+                </h3>
+		<p>
+		  In conclusion, our work demonstrates the potential of using an MoI to significantly enhance auto-curricula and the quest for open-ended learning algorithms by intelligently focusing on learnable and interesting tasks. In the long run, it hints at a synergy between LMs and open-endedness that simultaneously addresses looming challenges for both: how will LMs ultimately rise to the level of creativity seen in the best of human innovation, and how will open-endedness overcome the trap of diverging into a vast space of uninspiring mediocrity? By playing off each other’s strengths, LMs can perhaps someday become essential engines of open-ended discovery and begin to participate in the creative dance that has defined civilization since its inception.
+		</p>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
@@ -212,7 +222,7 @@ journal={arXiv preprint arXiv:2306.01711},
                     Acknowledgements
                 </h3>
                 <p class="text-justify">
-		  This work was supported by the Vector Institute, a grant from Schmidt Futures, an NSERC Discovery Grant, and a generous donation from Rafael Cosman. We also thank Cédric Colas and members in our lab at the University of British Columbia, namely Aaron Dharna, Ben Norman, and Shengran Hu, for insightful discussions and feedback.
+		  This work was supported by the Vector Institute, a grant from Schmidt Futures, an NSERC Discovery Grant, and a generous donation from Rafael Cosman. We also thank CÃ©dric Colas and members in our lab at the University of British Columbia, namely Aaron Dharna, Ben Norman, and Shengran Hu, for insightful discussions and feedback.
                   <br>
                   <br>
                 The website template was borrowed from <a href="https://jonbarron.info/">Jon Barron</a>.
