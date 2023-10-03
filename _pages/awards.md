@@ -7,9 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
+### Ubiquitous Robotics'23 Best Paper Award
+International Conference on Ubiquitous Robots, 2023
+
 ### ICRA'23 Student Travel Grant
 Deepmind, 2023  
-*Awarded $500 for travel to the ICRA 2023 conference*  
+*Awarded USD $500 for travel to the ICRA 2023 conference*  
 
 ### nwHacks winner
 Western Canada's largest hackathon, 2023  

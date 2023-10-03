@@ -16,7 +16,7 @@ Hello Humans! I am a PhD student at University of British Columbia working on Ar
 <p align="center">
    <img src="./images/project_omni.gif" width="100%" />
 </p>
-[Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
+[Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Website](http://www.jennyzhangzt.com/omni/) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
 
 ### Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation
 <p align="center">

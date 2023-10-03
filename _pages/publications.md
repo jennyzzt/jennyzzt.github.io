@@ -14,7 +14,7 @@ author_profile: true
 ## [OMNI: Open-endedness via Models of human Notions of Interestingness](https://arxiv.org/abs/2306.01711)  
 **Jenny Zhang**, Joel Lehman, Kenneth Stanley, Jeff Clune  
 *arXiv 2023*  
-[Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
+[Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Website](http://www.jennyzhangzt.com/omni/) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
 
 ## [Quality Diversity through AI Feedback](https://carper.ai/quality-diversity-through-ai-feedback/)
 Herbie Bradley, Andrew Dai, **Jenny Zhang**, Jeff Clune, Kenneth Stanley, Joel Lehman  
@@ -28,7 +28,7 @@ Herbie Bradley, Andrew Dai, **Jenny Zhang**, Jeff Clune, Kenneth Stanley, Joel L
 ## [Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation](https://arxiv.org/abs/2206.10606)
 **Jenny Zhang**, Samson Yu, Jiafei Duan, Cheston Tan  
 *IEEE International Conference on Ubiquitous Robots (UR) 2023*  
-*Best paper nomination*  
+*Best Paper Award*  
 [Paper](https://arxiv.org/abs/2206.10606) | [Code](https://github.com/jennyzzt/good_time_to_ask) | [Website](https://jennyzzt.github.io/gta/)  
 
 ## [Perceptive Locomotion with Controllable Pace and Natural Gait Transitions Over Uneven Terrains](https://arxiv.org/abs/2301.10894)
