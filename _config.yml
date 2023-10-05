@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jenny Zhuoting Zhang"
+title                    : "Jenny Zhang Zhuoting"
 title_separator          : "-"
-name                     : &name "Jenny Zhuoting Zhang"
+name                     : &name "Jenny Zhang Zhuoting"
 description              : &description "Artificial Intelligence and Robotics"
 url                      : https://jennyzzt.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -86,7 +86,7 @@ author:
   location         : "Vancouver"
   employer         :
   pubmed           :
-  googlescholar    : https://scholar.google.com/citations?hl=en&user=DAFQJkIAAAAJ
+  googlescholar    : https://scholar.google.com/citations?hl=en&authuser=1&user=u5VcrGgAAAAJ
   email            : jzhangzhuoting@gmail.com
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
