@@ -11,19 +11,20 @@ author_profile: true
 
 {% include base_path %}
 
+## [Quality-Diversity through AI Feedback](https://arxiv.org/abs/2310.13032)  
+Herbie Bradley\*, Andrew Dai\*, Hannah Teufel, **Jenny Zhang**, Koen Oostermeijer, Marco Bellagente, Jeff Clune, Kenneth Stanley, Grégory Schott, Joel Lehman  
+*arXiv 2023*  
+[Paper](https://arxiv.org/abs/2310.13032) | [Code](https://github.com/CarperAI/OpenELM) | [Website](https://qdaif.github.io/) | [Tweet](https://x.com/andrewdai99/status/1716913881816383805?s=20)
+
+## [Quality Diversity through Human Feedback](https://arxiv.org/abs/2310.12103)  
+Li Ding, **Jenny Zhang**, Jeff Clune, Lee Spector, Joel Lehman  
+*arXiv 2023*  
+[Paper](https://arxiv.org/abs/2310.12103) | [Tweet](https://x.com/li_ding_/status/1716460504242094346?s=20)
+
 ## [OMNI: Open-endedness via Models of human Notions of Interestingness](https://arxiv.org/abs/2306.01711)  
 **Jenny Zhang**, Joel Lehman, Kenneth Stanley, Jeff Clune  
 *arXiv 2023*  
 [Paper](https://arxiv.org/abs/2306.01711) | [Code](https://github.com/jennyzzt/omni) | [Website](http://www.jennyzhangzt.com/omni/) | [Tweet](https://twitter.com/jeffclune/status/1666082258888056834)  
-
-## [Quality Diversity through AI Feedback](https://carper.ai/quality-diversity-through-ai-feedback/)
-Herbie Bradley, Andrew Dai, **Jenny Zhang**, Jeff Clune, Kenneth Stanley, Joel Lehman  
-[Blogpost](https://carper.ai/quality-diversity-through-ai-feedback/)  
-
-## [Robustness of Utilizing Feedback in Embodied Visual Navigation](https://arxiv.org/abs/2303.15453)
-**Jenny Zhang**, Samson Yu, Jiafei Duan, Cheston Tan  
-*IEEE International Conference on Robotics and Automation (ICRA) 2023 Workshop*  
-[Paper](https://arxiv.org/abs/2303.15453)  
 
 ## [Good Time to Ask: A Learning Framework for Asking for Help in Embodied Visual Navigation](https://arxiv.org/abs/2206.10606)
 **Jenny Zhang**, Samson Yu, Jiafei Duan, Cheston Tan  

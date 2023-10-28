@@ -6,11 +6,5 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Teaching"
-    url: /teaching/
-
   - title: "Grants & Awards"
     url: /awards/
-
-  - title: "Personal"
-    url: /personal/

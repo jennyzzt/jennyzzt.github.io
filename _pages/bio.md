@@ -15,7 +15,7 @@ Education
 * B.Eng in Computer Science (2018 - 2021)
   * Imperial College London
 
-Work Experience
+Other Research Experience
 ======
 * Research Engineer (Aug 2021 - Aug 2022)
   * Institute of Infocomm Research, A*STAR Singapore
