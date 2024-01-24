@@ -86,7 +86,7 @@ author:
   location         : "Vancouver"
   employer         :
   pubmed           :
-  googlescholar    : https://scholar.google.com/citations?hl=en&authuser=1&user=u5VcrGgAAAAJ
+  googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=1&user=u5VcrGgAAAAJ"
   email            : jzhangzhuoting@gmail.com
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
